@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,p{
+    text-align: center;
+    /* padding: 10px; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    align-items: center;
+}
+input{
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button{
+    padding: 10px;
+    background-color: rgb(43, 105, 105);
+    color: aliceblue;
+    border: none;
+}
+button:hover{
+    background-color: darkcyan;
+}
