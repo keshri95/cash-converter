@@ -7,6 +7,11 @@ h1,p{
     text-align: center;
     /* padding: 10px; */
 }
+table,td,th, tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
 .container{
     display: flex;
     flex-direction: column;
